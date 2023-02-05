@@ -7,7 +7,13 @@ const Counter = () => {
     const [number , setNumber] = useState(0)
 
     const onIncreaseHandler = () => {
+        
         setNumber(number + 1)
+    }
+
+    const onDecreaseHandler = () => {
+
+        setNumber(number - 1)
     }
 
     return (
@@ -19,7 +25,7 @@ const Counter = () => {
              w-[120px] h-[120px] bg-[#2c2c2c]">{number}</div>
             <div className="flex space-x-20">
                 <IncreaseButton onIncreaseHandler={onIncreaseHandler}/>
-                <DecreaseButton/>
+                <DecreaseButton onDecreaseHandler={onDecreaseHandler}/>
             </div>
         </div>
         
