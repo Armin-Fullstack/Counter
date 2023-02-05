@@ -9,3 +9,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.card {
+    background-image: linear-gradient(45deg , rgba(255,255,255,0.3) , rgba(255,255,255,0.1));
+    border: 2px solid white;
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: 5px;
+}

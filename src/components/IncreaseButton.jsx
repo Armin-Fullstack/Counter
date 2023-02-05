@@ -2,8 +2,8 @@
 const IncreaseButton = () => {
     return (
 
-       <button className="text-white bg-[#2c2c2c]
-       text-5xl rounded-b-xl p-10 font-bold">+</button>
+       <button className="text-white bg-green-600
+       text-5xl rounded-b-xl w-[50px] h-[100px] font-bold">+</button>
 
     )
 }
