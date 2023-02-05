@@ -1,8 +1,10 @@
+import Counter from "./components/Counter"
+
 
 const App = () => {
 
   return (
-   null
+   <Counter/>
   )
 }
 
